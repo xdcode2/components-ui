@@ -49,6 +49,7 @@ export const useAccordion = ({ defaultValue, multiple = false, onToggle, onColla
                 indexes = [value];
                 if (isFunction(onExpand)) onExpand(value);
             }
+
             setOpenIndexes(indexes);
             if (isFunction(onToggle)) onToggle(value);
         }

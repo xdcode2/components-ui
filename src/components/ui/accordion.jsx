@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "../../utils";
-import { useAccordion } from "../../hooks/use-accordion";
+import { useAccordion } from "../../hooks";
 import PropTypes from "prop-types";
 
 const AccordionContext = React.createContext();
